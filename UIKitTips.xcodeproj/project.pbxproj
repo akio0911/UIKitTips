@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E500F7421CE981180076F2CB /* ContentInsetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500F7411CE981180076F2CB /* ContentInsetTableViewController.swift */; };
+		E500F7441CE9813B0076F2CB /* ContentInset.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E500F7431CE9813B0076F2CB /* ContentInset.storyboard */; };
 		E55276901CE5962B000C2213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E552768F1CE5962B000C2213 /* AppDelegate.swift */; };
 		E55276951CE5962B000C2213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55276931CE5962B000C2213 /* Main.storyboard */; };
 		E55276971CE5962B000C2213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55276961CE5962B000C2213 /* Assets.xcassets */; };
 		E552769A1CE5962B000C2213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55276981CE5962B000C2213 /* LaunchScreen.storyboard */; };
-		E55276A41CE5989B000C2213 /* ContentInsetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55276A31CE5989B000C2213 /* ContentInsetTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E500F7411CE981180076F2CB /* ContentInsetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentInsetTableViewController.swift; path = ContentInset/ContentInsetTableViewController.swift; sourceTree = "<group>"; };
+		E500F7431CE9813B0076F2CB /* ContentInset.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ContentInset.storyboard; path = ContentInset/ContentInset.storyboard; sourceTree = "<group>"; };
 		E552768C1CE5962B000C2213 /* UIKitTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E552768F1CE5962B000C2213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E55276941CE5962B000C2213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -22,7 +25,6 @@
 		E55276991CE5962B000C2213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E552769B1CE5962B000C2213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55276A21CE597E3000C2213 /* UIKitTips.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKitTips.playground; sourceTree = "<group>"; };
-		E55276A31CE5989B000C2213 /* ContentInsetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentInsetTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E500F7401CE9810C0076F2CB /* ContentInset */ = {
+			isa = PBXGroup;
+			children = (
+				E500F7431CE9813B0076F2CB /* ContentInset.storyboard */,
+				E500F7411CE981180076F2CB /* ContentInsetTableViewController.swift */,
+			);
+			name = ContentInset;
+			sourceTree = "<group>";
+		};
 		E55276831CE5962A000C2213 = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +68,11 @@
 			children = (
 				E55276A21CE597E3000C2213 /* UIKitTips.playground */,
 				E552768F1CE5962B000C2213 /* AppDelegate.swift */,
-				E55276A31CE5989B000C2213 /* ContentInsetTableViewController.swift */,
 				E55276931CE5962B000C2213 /* Main.storyboard */,
 				E55276961CE5962B000C2213 /* Assets.xcassets */,
 				E55276981CE5962B000C2213 /* LaunchScreen.storyboard */,
 				E552769B1CE5962B000C2213 /* Info.plist */,
+				E500F7401CE9810C0076F2CB /* ContentInset */,
 			);
 			path = UIKitTips;
 			sourceTree = "<group>";
@@ -124,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E500F7441CE9813B0076F2CB /* ContentInset.storyboard in Resources */,
 				E552769A1CE5962B000C2213 /* LaunchScreen.storyboard in Resources */,
 				E55276971CE5962B000C2213 /* Assets.xcassets in Resources */,
 				E55276951CE5962B000C2213 /* Main.storyboard in Resources */,
@@ -138,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E55276901CE5962B000C2213 /* AppDelegate.swift in Sources */,
-				E55276A41CE5989B000C2213 /* ContentInsetTableViewController.swift in Sources */,
+				E500F7421CE981180076F2CB /* ContentInsetTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

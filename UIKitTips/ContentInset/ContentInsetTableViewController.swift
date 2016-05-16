@@ -12,20 +12,19 @@ class ContentInsetTableViewController: UITableViewController {
     
     enum CellData {
         case HiddenNav
-        case HiddenTab
         case Text(String)
         
         var text: String? {
             switch self {
-            case .HiddenNav, HiddenTab: return nil
-            case let .Text(text):       return text
+            case .HiddenNav:      return nil
+            case let .Text(text): return text
             }
         }
         
         var backgroundColor: UIColor {
             switch self {
-            case .HiddenNav, .HiddenTab: return UIColor.lightGrayColor()
-            case .Text:                  return UIColor.whiteColor()
+            case .HiddenNav: return UIColor.lightGrayColor()
+            case .Text:      return UIColor.whiteColor()
             }
         }
     }
@@ -44,10 +43,6 @@ class ContentInsetTableViewController: UITableViewController {
         return statusHeight + navigationHeight
     }
 
-    private var tabBarHeight: CGFloat {
-        return tabBarController!.tabBar.bounds.height
-    }
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -55,11 +50,10 @@ class ContentInsetTableViewController: UITableViewController {
         
         tableView.scrollIndicatorInsets = UIEdgeInsets(top: statusAndNavigtationBarHeight,
                                                        left: 0,
-                                                       bottom: tabBarHeight,
+                                                       bottom: 0,
                                                        right: 0)
         cellDatas += [CellData.HiddenNav]
         cellDatas += (1...30).map{ (num: Int) -> CellData in CellData.Text(num.description) }
-        cellDatas += [CellData.HiddenTab]
     }
 
     // MARK: - Table view data source
@@ -81,7 +75,6 @@ class ContentInsetTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         switch cellDatas[indexPath.row] {
         case .HiddenNav: return statusAndNavigtationBarHeight
-        case .HiddenTab: return tabBarHeight
         case .Text:      return 44
         }
     }
