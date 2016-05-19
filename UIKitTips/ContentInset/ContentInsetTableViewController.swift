@@ -49,9 +49,9 @@ class ContentInsetTableViewController: UITableViewController {
         automaticallyAdjustsScrollViewInsets = false
         
         tableView.scrollIndicatorInsets = UIEdgeInsets(top: statusAndNavigtationBarHeight,
-                                                       left: 0,
+                                                       left:   0,
                                                        bottom: 0,
-                                                       right: 0)
+                                                       right:  0)
         cellDatas += [CellData.HiddenNav]
         cellDatas += (1...30).map{ (num: Int) -> CellData in CellData.Text(num.description) }
     }
