@@ -73,8 +73,16 @@
 				E55276981CE5962B000C2213 /* LaunchScreen.storyboard */,
 				E552769B1CE5962B000C2213 /* Info.plist */,
 				E500F7401CE9810C0076F2CB /* ContentInset */,
+				E56EFA0F1CEF31E3003F7735 /* SquareConstraint */,
 			);
 			path = UIKitTips;
+			sourceTree = "<group>";
+		};
+		E56EFA0F1CEF31E3003F7735 /* SquareConstraint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SquareConstraint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
