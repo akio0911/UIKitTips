@@ -13,6 +13,7 @@
 		E55276951CE5962B000C2213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55276931CE5962B000C2213 /* Main.storyboard */; };
 		E55276971CE5962B000C2213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55276961CE5962B000C2213 /* Assets.xcassets */; };
 		E552769A1CE5962B000C2213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55276981CE5962B000C2213 /* LaunchScreen.storyboard */; };
+		E56EFA111CEFE329003F7735 /* SquareConstraint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56EFA101CEFE329003F7735 /* SquareConstraint.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E55276991CE5962B000C2213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E552769B1CE5962B000C2213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55276A21CE597E3000C2213 /* UIKitTips.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKitTips.playground; sourceTree = "<group>"; };
+		E56EFA101CEFE329003F7735 /* SquareConstraint.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SquareConstraint.storyboard; path = SquareConstraint/SquareConstraint.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		E56EFA0F1CEF31E3003F7735 /* SquareConstraint */ = {
 			isa = PBXGroup;
 			children = (
+				E56EFA101CEFE329003F7735 /* SquareConstraint.storyboard */,
 			);
 			name = SquareConstraint;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				E500F7441CE9813B0076F2CB /* ContentInset.storyboard in Resources */,
 				E552769A1CE5962B000C2213 /* LaunchScreen.storyboard in Resources */,
 				E55276971CE5962B000C2213 /* Assets.xcassets in Resources */,
+				E56EFA111CEFE329003F7735 /* SquareConstraint.storyboard in Resources */,
 				E55276951CE5962B000C2213 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
