@@ -8,6 +8,10 @@
 
 import UIKit
 
+// 上下のラベルのContent Hugging Priorityは251。
+// 正方形のViewが大きくなろうとするWidth制約のPriorityは249に設定。
+// これにより、正方形のビューは上下のビューを押しつぶすほどには拡大されなくなる。
+
 class SquareConstraintViewController: UIViewController {
 
     override func viewDidLoad() {
