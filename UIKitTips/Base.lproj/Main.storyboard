@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--UIKit Tips-->
         <scene sceneID="SFd-dz-hTm">
             <objects>
                 <tableViewController id="b94-5C-38u" sceneMemberID="viewController">
@@ -64,7 +64,7 @@
                             <outlet property="delegate" destination="b94-5C-38u" id="5tT-Cm-rtJ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="RrX-6n-Xs8"/>
+                    <navigationItem key="navigationItem" title="UIKit Tips" id="RrX-6n-Xs8"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tvS-ww-hVO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
