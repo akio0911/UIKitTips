@@ -7,7 +7,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Square Constraint View Controller-->
+        <!--Square Constraint-->
         <scene sceneID="Lah-ZN-7WF">
             <objects>
                 <viewController id="GTr-jy-ltR" customClass="SquareConstraintViewController" customModule="UIKitTips" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKo-cF-y3K">
-                                <rect key="frame" x="20" y="28" width="560" height="21"/>
+                                <rect key="frame" x="20" y="72" width="560" height="21"/>
                                 <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -34,17 +34,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WT0-Bv-pQh">
-                                <rect key="frame" x="20" y="57" width="560" height="494"/>
+                                <rect key="frame" x="20" y="101" width="560" height="450"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xw9-Hy-JeW">
-                                        <rect key="frame" x="41" y="8" width="478" height="478"/>
+                                        <rect key="frame" x="63" y="8" width="434" height="434"/>
                                         <color key="backgroundColor" red="0.44801449775695801" green="1" blue="0.32786399126052856" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="xw9-Hy-JeW" secondAttribute="height" multiplier="1:1" id="oPK-ov-yJ0"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Square" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b05-Bh-lpL">
-                                        <rect key="frame" x="252" y="236" width="55" height="21"/>
+                                        <rect key="frame" x="252" y="214" width="55" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -78,6 +78,8 @@
                             <constraint firstItem="WT0-Bv-pQh" firstAttribute="top" secondItem="MKo-cF-y3K" secondAttribute="bottom" constant="8" id="yau-wT-wBY"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Square Constraint" id="sgf-0X-bhR"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S8c-8J-fss" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
